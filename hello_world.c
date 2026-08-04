@@ -1,7 +1,5 @@
-#include <stdio.h>
+#include <stdio.h> //pulls the library that provides basic functionality of C
 int main() {
-    int num = 42;
-    printf("%d\n", num);
-    printf("Hello world!\n");
-    return 0;
+    printf("Hello world!\n"); //prints Hello world! onto the screen
+    return 0; //returns a successfully passed program :D
 }
