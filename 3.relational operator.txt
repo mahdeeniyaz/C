@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(void) {
+    float current _ speed
+    int door locked = e;
+    = 22.5; // km/h
+    // e = Unlocked, 1 = Locked
+    Speed: X. If km/h\n",
+    current _ speed) ;
+    // Security Rule: If speed exceeds 15.e km/h, auto-lock doors
+    if (current _ speed > 15.0) {
+    door locked = 1;
+    printf("SECURITY: Speed threshold reached. Doors LOCKED automatically. \n");
+    } else {
+    printf("SECURITY: Speed low. Doors remain UNLOCKED. Xn");
+    printf("Current Dcm• Lock Status: Xd\n", door_locked);
+    return;
+}
