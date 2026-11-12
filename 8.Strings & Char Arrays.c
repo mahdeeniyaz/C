@@ -32,5 +32,12 @@ int main(void) {
     } else {
         printf("Checkpoint Challenge: Command is invalid.\n");
     }
+
+    printf("\n\n---Buffer overflow demonstration---\n");
+    char msg[10] = "abcdefghijkl"; // 10 characters in a 10-byte array
+    printf("Message: %s\n", msg);
+    printf("Character Length: %zu bytes\n", sizeof(msg)); // sizeof counts all bytes
+    //this creates a buffer overflow because msg is only 10 bytes long,
+    // but we are trying to write 11 bytes (including the null terminator)
     return 0;
 }
